@@ -1,5 +1,7 @@
 #include <iostream>
-#include <doradb/entity/entity.h>
+#include "Entity.h"
+
+using namespace std;
 
 void Entity::setId(string newId) {
     id = newId;

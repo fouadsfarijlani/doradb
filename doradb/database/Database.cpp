@@ -6,4 +6,8 @@ void Database::setName(string db_name) {
   name = db_name;
 }
 
+void Database::setWorkspaceId(string new_id) {
+  workspaceId = new_id;
+}
+
 

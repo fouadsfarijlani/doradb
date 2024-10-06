@@ -5,7 +5,8 @@ namespace db {
     class Database {
         public:
             string name;
-            string containerId;
+            string workspaceId;
             void setName(string);
+            void setWorkspaceId(string);
     };
 }

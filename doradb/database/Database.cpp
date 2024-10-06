@@ -1,4 +1,5 @@
-#include <doradb/database/Database.h>
+#include "Database.h"
+
 using namespace db;
 using namespace std;
 

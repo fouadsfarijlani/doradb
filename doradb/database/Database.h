@@ -1,4 +1,7 @@
 #include <iostream>
+#include <map>
+#include "doradb/entity/Entity.h"
+
 using namespace std;
 
 namespace db {
@@ -6,6 +9,7 @@ namespace db {
         public:
             string name;
             string workspaceId;
+            map<string, Entity> entities;
             void setName(string);
             void setWorkspaceId(string);
     };
